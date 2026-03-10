@@ -1,6 +1,6 @@
 function Cart({product}) {
-  const {name,images,price,shortDescription,colors}=product
-  console.log(name,images,price,shortDescription,colors)
+  const {name,images,price,shortDescription,colors,category}=product
+
   return (
     <>
       <div className=" border border-gray-100 shadow-sm overflow-hidden  hover:shadow-md transition-all ">
@@ -27,7 +27,7 @@ function Cart({product}) {
         <div className="p-4 space-y-1">
           <h4 className="text-gray-800 font-medium truncate">{name}</h4>
           <p className="text-gray-600 text-sm ">
-            Rs.<span className="font-semibold">{price} INR</span>
+            Rs.<span className="font-semibold">{price} INR, For {category}</span>
           </p>
           <div className="flex items-center gap-2 pt-2">
             {colors?.map((color,index)=>(
@@ -37,7 +37,7 @@ function Cart({product}) {
               style={{backgroundColor: color }}></div>
             ))}
           </div>
-          <p className="text-sm">Desc</p> 
+          <p className="text-sm">{shortDescription}</p> 
         </div>
       </div>
 

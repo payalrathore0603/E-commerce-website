@@ -67,7 +67,8 @@
       "rating": 4.4,
       "stock": 18,
       "createdAt": "2025-01-04"
-    },{
+    },
+    {
       "id": 5,
       "name": "Oversized Cotton T-Shirt",
       "price": 1499,
@@ -134,7 +135,8 @@
       "rating": 4.4,
       "stock": 18,
       "createdAt": "2025-01-04"
-    },{
+    },
+    {
       "id": 9,
       "name": "Oversized Cotton T-Shirt",
       "price": 1499,
@@ -203,7 +205,7 @@
       "createdAt": "2025-01-04"
     }
   ],
-   "users": [
+  "users": [
     {
       "id": 1,
       "name": "Payal Rathore",
@@ -214,7 +216,3 @@
   ],
   "cart": []
 }
-
-
-
-
