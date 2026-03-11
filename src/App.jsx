@@ -1,13 +1,22 @@
+import { Routes,Route } from "react-router-dom"
 import Navbar from "./components/layout/Nabar"
-import Cart from "./components/pages/Cart"
+import Home from "./components/layout/Home"
+import Login from "./components/pages/Login/Login" 
+import SearchComponent from "./components/pages/SearchComponent"
+
+
 
 function App() {
+
   return (
     <>
     <Navbar/>
-    <div className="container grid grid-cols-4 grid-rows-1 gap-3 m-auto mt-6">
-      <Cart/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+       <Route path="/category/:selectedCategory" element={<Home/>} />
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/search" element={<SearchComponent/>}/>
+    </Routes>
     </>
   )
 }

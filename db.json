@@ -1,0 +1,218 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Oversized Cotton T-Shirt",
+      "price": 1499,
+      "category": "Women",
+      "brand": "ZARA",
+      "images": {
+        "primary": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/f8c06eee_d507_700x.jpg?v=1772226006",
+        "secondary": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/f5f7d880_b498_700x.jpg?v=1772226005"
+      },
+      "colors": ["#000000", "#ffffff", "#d6c7b2"],
+      "sizes": ["S", "M", "L"],
+      "shortDescription": "Premium cotton oversized t-shirt for everyday comfort.",
+      "rating": 4.5,
+      "stock": 20,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": 2,
+      "name": "Slim Fit Jeans",
+      "price": 2499,
+      "category": "Men",
+      "brand": "H&M",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&h=800&fit=crop"
+      },
+      "colors": ["#1e3a8a", "#000000"],
+      "sizes": ["M", "L", "XL"],
+      "shortDescription": "Modern slim-fit denim jeans with stretch fabric.",
+      "rating": 4.3,
+      "stock": 15,
+      "createdAt": "2025-01-02"
+    },
+    {
+      "id": 3,
+      "name": "Summer Floral Dress",
+      "price": 3299,
+      "category": "Women",
+      "brand": "MANGO",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=800&fit=crop"
+      },
+      "colors": ["#dc2626", "#facc15"],
+      "sizes": ["S", "M"],
+      "shortDescription": "Lightweight floral summer dress with soft lining.",
+      "rating": 4.7,
+      "stock": 10,
+      "createdAt": "2025-01-03"
+    },
+    {
+      "id": 4,
+      "name": "Casual Hoodie",
+      "price": 1999,
+      "category": "Men",
+      "brand": "Nike",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1503341733017-1901578f9f1e?w=600&h=800&fit=crop"
+      },
+      "colors": ["#6b7280", "#111827"],
+      "sizes": ["M", "L"],
+      "shortDescription": "Soft fleece hoodie for daily street style.",
+      "rating": 4.4,
+      "stock": 18,
+      "createdAt": "2025-01-04"
+    },
+    {
+      "id": 5,
+      "name": "Oversized Cotton T-Shirt",
+      "price": 1499,
+      "category": "Women",
+      "brand": "ZARA",
+      "images": {
+        "primary": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/f8c06eee_d507_700x.jpg?v=1772226006",
+        "secondary": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/f5f7d880_b498_700x.jpg?v=1772226005"
+      },
+      "colors": ["#000000", "#ffffff", "#d6c7b2"],
+      "sizes": ["S", "M", "L"],
+      "shortDescription": "Premium cotton oversized t-shirt for everyday comfort.",
+      "rating": 4.5,
+      "stock": 20,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": 6,
+      "name": "Slim Fit Jeans",
+      "price": 2499,
+      "category": "Men",
+      "brand": "H&M",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&h=800&fit=crop"
+      },
+      "colors": ["#1e3a8a", "#000000"],
+      "sizes": ["M", "L", "XL"],
+      "shortDescription": "Modern slim-fit denim jeans with stretch fabric.",
+      "rating": 4.3,
+      "stock": 15,
+      "createdAt": "2025-01-02"
+    },
+    {
+      "id": 7,
+      "name": "Summer Floral Dress",
+      "price": 3299,
+      "category": "Women",
+      "brand": "MANGO",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=800&fit=crop"
+      },
+      "colors": ["#dc2626", "#facc15"],
+      "sizes": ["S", "M"],
+      "shortDescription": "Lightweight floral summer dress with soft lining.",
+      "rating": 4.7,
+      "stock": 10,
+      "createdAt": "2025-01-03"
+    },
+    {
+      "id": 8,
+      "name": "Casual Hoodie",
+      "price": 1999,
+      "category": "Men",
+      "brand": "Nike",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1503341733017-1901578f9f1e?w=600&h=800&fit=crop"
+      },
+      "colors": ["#6b7280", "#111827"],
+      "sizes": ["M", "L"],
+      "shortDescription": "Soft fleece hoodie for daily street style.",
+      "rating": 4.4,
+      "stock": 18,
+      "createdAt": "2025-01-04"
+    },
+    {
+      "id": 9,
+      "name": "Oversized Cotton T-Shirt",
+      "price": 1499,
+      "category": "Women",
+      "brand": "ZARA",
+      "images": {
+        "primary": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/f8c06eee_d507_700x.jpg?v=1772226006",
+        "secondary": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/f5f7d880_b498_700x.jpg?v=1772226005"
+      },
+      "colors": ["#000000", "#ffffff", "#d6c7b2"],
+      "sizes": ["S", "M", "L"],
+      "shortDescription": "Premium cotton oversized t-shirt for everyday comfort.",
+      "rating": 4.5,
+      "stock": 20,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": 10,
+      "name": "Slim Fit Jeans",
+      "price": 2499,
+      "category": "Men",
+      "brand": "H&M",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&h=800&fit=crop"
+      },
+      "colors": ["#1e3a8a", "#000000"],
+      "sizes": ["M", "L", "XL"],
+      "shortDescription": "Modern slim-fit denim jeans with stretch fabric.",
+      "rating": 4.3,
+      "stock": 15,
+      "createdAt": "2025-01-02"
+    },
+    {
+      "id": 11,
+      "name": "Summer Floral Dress",
+      "price": 3299,
+      "category": "Women",
+      "brand": "MANGO",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=800&fit=crop"
+      },
+      "colors": ["#dc2626", "#facc15"],
+      "sizes": ["S", "M"],
+      "shortDescription": "Lightweight floral summer dress with soft lining.",
+      "rating": 4.7,
+      "stock": 10,
+      "createdAt": "2025-01-03"
+    },
+    {
+      "id": 12,
+      "name": "Casual Hoodie",
+      "price": 1999,
+      "category": "Men",
+      "brand": "Nike",
+      "images": {
+        "primary": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&h=800&fit=crop",
+        "secondary": "https://images.unsplash.com/photo-1503341733017-1901578f9f1e?w=600&h=800&fit=crop"
+      },
+      "colors": ["#6b7280", "#111827"],
+      "sizes": ["M", "L"],
+      "shortDescription": "Soft fleece hoodie for daily street style.",
+      "rating": 4.4,
+      "stock": 18,
+      "createdAt": "2025-01-04"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Payal Rathore",
+      "email": "payal@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "cart": []
+}

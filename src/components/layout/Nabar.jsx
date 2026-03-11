@@ -1,6 +1,17 @@
 import { MenuIcon, Search, ShoppingBag, User } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
+
+
 
 function Navbar() {
+
+  const navigate=useNavigate();
+
+
+  const handlePriceChange=(e)=>{
+    const value=e.target.value;
+    navigate(`/?price=${value}`)
+  }
   return (
     <>
       <header className="sticky top-0 bg-[#ffffff] shadow-md z-50">
@@ -9,16 +20,22 @@ function Navbar() {
           {/* categories */}
           <div className="hidden md:block">
             <div className="flex gap-4 items-start">
-              <div className="group flex flex-col gap-2">
-                <span className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
-                  WOMEN
-                </span>
+               <div className="group flex flex-col gap-2">
+                <Link to="/"  className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+                  Home
+                </Link>
                 <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
               </div>
               <div className="group flex flex-col gap-2">
-                <span className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+                <Link to="/category/women"  className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+                  WOMEN
+                </Link>
+                <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
+              </div>
+              <div className="group flex flex-col gap-2">
+                <Link to="/category/men" className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
                   MEN
-                </span>
+                </Link>
                 <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
               </div>
             </div>
@@ -33,25 +50,40 @@ function Navbar() {
 
           {/* cart action */}
           <div className="flex  gap-4">
-            <div className="flex flex-col gap-2 group">
+             <div className="flex flex-col gap-2 group">
+
+            
+
+
               <span className="hidden lg:block text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
-                SEARCH
+                <select name="price-range" id="price-range" className="outline-none" onChange={handlePriceChange}>
+                    <option value="" >FILTER</option>
+                    <option value="500-1000">500-1000</option>
+                    <option value="1000-1500">1000-1500</option>
+                    <option value="1500-max">1500+</option>
+              </select>
               </span>
               <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
             </div>
-            <div className="lg:hidden">
-              <Search className="w-4 h-4 text-gray-800 cursor-pointer" />
+            <div className="flex flex-col gap-2 group">
+              <Link to="/search" className="hidden lg:block text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+                SEARCH
+              </Link>
+              <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
             </div>
+            <Link  to="/login" className="lg:hidden">
+              <Search className="w-4 h-4 text-gray-800 cursor-pointer" />
+            </Link>
 
             <div className="flex flex-col gap-2 group">
-              <span className="hidden lg:block text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+              <Link to="/login" className="hidden lg:block text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
                 Account
-              </span>
+              </Link>
               <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
             </div>
-            <div className="lg:hidden">
+            <Link to="/login" className="lg:hidden">
               <User className="w-4 h-4 text-gray-800 cursor-pointer" />
-            </div>
+            </Link>
 
             <div className="flex flex-col gap-2 group">
               <span className="hidden lg:block text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
