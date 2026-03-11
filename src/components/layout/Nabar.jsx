@@ -27,13 +27,13 @@ function Navbar() {
                 <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
               </div>
               <div className="group flex flex-col gap-2">
-                <Link to="/women"  className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+                <Link to="/category/women"  className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
                   WOMEN
                 </Link>
                 <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
               </div>
               <div className="group flex flex-col gap-2">
-                <Link to="/men" className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+                <Link to="/category/men" className="text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
                   MEN
                 </Link>
                 <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
@@ -66,9 +66,9 @@ function Navbar() {
               <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
             </div>
             <div className="flex flex-col gap-2 group">
-              <span className="hidden lg:block text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
+              <Link to="/search" className="hidden lg:block text-[#191919] text-xs cursor-pointer tracking-wider font-medium">
                 SEARCH
-              </span>
+              </Link>
               <div className="h-[2px] w-full bg-gray-800 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></div>
             </div>
             <Link  to="/login" className="lg:hidden">
